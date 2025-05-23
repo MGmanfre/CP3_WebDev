@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #161616;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(43, 65, 195);
+}
+
+
+label {
+    display: flex;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"],
+option,
+select {
+    display: flex;
+    align-self: center;
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 2px rgb(43, 65, 195);
+    border-radius: 5px;
+    background-color: #161616;
+    color: #ffffff;
+}
+
+option,
+select {
+    width: 100%;
+}
+button {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    box-shadow: 4px 4px 8px rgb(43, 65, 195);
+    border-radius: 5px;
+    background-color: rgb(43, 65, 195);
+    color: #000000;
+    cursor: pointer;
+    text-align: center;
+}
+#tecnologia {
+    font-weight: bolder;
+}
+
+#alimentos {
+    background-color: yellow;
+    color: black;
+    width: 90%;
+}
+#alimentos::marker {
+    color: white;
+}
